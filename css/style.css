@@ -1,0 +1,150 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	border:0px;
+}
+h1, h2, h3, h4, h5, h6, ol, ul, p, li, img{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sec1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.sec1-button1{
+    border: 0px;
+    border-radius: 0%;
+    color: black;
+}
+.sec1-img{
+    height: 40px;
+    width: 80px;
+}
+.sec1-book{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: black;
+}
+.sec1-icon{
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+}
+.sec2-padd{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sec2-article{
+    font-size: 40px;
+    font-weight: 1000;
+    padding-left: 25px;
+}
+
+.sec3-color{
+    background-color: #002147;
+    color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.nav-link{
+    color: white;
+}
+
+.sec3-txt:link {
+    color: red;
+   
+    text-decoration: none;
+  }
+.sec3-button1{
+    background-color: #002147;
+    color: white;
+    border: 0px;
+    border-radius: 0%;
+}
+.sec3-button2{
+    background-color: white;
+    color: black;
+    border: 0px;
+    border-radius: 0%;
+}
+.sec3-button3{
+    border: 0px;
+    border-radius: 0%;
+    color: white;
+}
+
+
+.journal-body{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    color: black;
+    text-align: left;
+}
+.centered {
+    position: absolute;
+    bottom: 63%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+     padding: 10px 15px 10px 10px;
+}
+.centered2{
+    position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0px;
+        right: 25%;
+        top: 50%;
+        text-align: left;
+        width: 65%; 
+        background-color: white;
+}
+.journal-body .flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.journal-body .flex .flex1{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+
+.sec4-border{
+    border-bottom: 1px solid black;
+}
+
+.sec4-allign{
+    position: absolute;
+        margin: 0 auto;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        width: 65%;
+}
+.sec4-img1{
+    height: auto;
+    width: auto;
+}
+.sec4-img2{
+    height: auto;
+    width: 150px;
+}
